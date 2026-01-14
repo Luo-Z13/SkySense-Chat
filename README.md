@@ -3,7 +3,7 @@
 [![Paper](https://img.shields.io/badge/Dataset-FITRS-orange)](https://huggingface.co/datasets/ll-13/FIT-RS)
 <img alt="GitHub stars" src="https://img.shields.io/github/stars/Luo-Z13/SkySenseGPT?style=social">
 
-# SkySenseGPT: A Fine-Grained Instruction Tuning Dataset and Model for Remote Sensing Vision-Language Understanding
+# SkySense-Chat: A Scene Graph-Enhanced Remote Sensing Vision-Language Model
 
 ## 📢 News and Updates
 :fire::fire::fire: **Last Updated: August 2025. This project is under active development.**:fire::fire::fire: 
@@ -118,5 +118,6 @@ Our FIT-RS dataset is built based on the [STAR](https://linlin-dev.github.io/pro
 ```
 
 We are thankful to [LLaVA-1.5](https://github.com/haotian-liu/LLaVA) and [GeoChat](https://github.com/mbzuai-oryx/GeoChat) for releasing their models and code as open-source contributions.
+
 
 
