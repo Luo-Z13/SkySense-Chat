@@ -10,7 +10,7 @@
 
 - **[2025.08.08]** Our **SkySense Family** [project page](https://zqcrafts.github.io/SkySense-O/project.html) is now live!
 - **[2024.07.22]** The FIT-RSFG benchmark have been uploaded [here](https://huggingface.co/datasets/ll-13/FIT-RS/tree/main/FIT-RSFG) and the evaluation scripts have been released [here](Eval_scripts)! See [Evaluation](#evaluation) for details on how to evaluate.
-% - **[2024.07.20]** The FIT-RS dataset (training set 1415k) **categorized by tasks** have been uploaded [here](https://huggingface.co/datasets/ll-13/FIT-RS/blob/main/FIT-RS_Instruction/train_data_of_each_individual_task.zip).
+% - **[2024.07.20]** The dataset (training set 1415k) **categorized by tasks** have been uploaded [here](https://huggingface.co/datasets/ll-13/FIT-RS/blob/main/FIT-RS_Instruction/train_data_of_each_individual_task.zip).
 - **[2024.06.17]** Our paper is available in [arxiv](https://arxiv.org/abs/2406.10100)!
 
 
@@ -19,7 +19,7 @@
 ### [[Paper](https://arxiv.org/abs/2406.10100)][[Dataset](https://huggingface.co/datasets/ll-13/FIT-RS)][[Model](https://huggingface.co/ll-13/SkySenseGPT-7B-clip-lora)][[Code](https://github.com/Luo-Z13/SkySenseGPT)]
 
 
-In this project, we propose the FIT-RS (Remote Sensing Fine-Grained Instruction Tuning) dataset, which contains 1,800,851 high-quality instruction samples covering various vision-language comprehension tasks. FIT-RS aims to enhance the fine-grained comprehension ability of Remote Sensing Large Multi-Modal Models (RSLMMs), specifically their ability to understand semantic relationships among objects in complex remote sensing scenes. Based on FIT-RS, we establish the FIT-RSFG (Remote Sensing Fine-Grained Comprehension) Benchmark to evaluate RSLMMs' ability in fine-grained understanding.
+In this project, we propose the Remote Sensing Fine-Grained Instruction Tuning dataset, which contains 1,800,851 high-quality instruction samples covering various vision-language comprehension tasks. It aims to enhance the fine-grained comprehension ability of Remote Sensing Large Multi-Modal Models (RSLMMs), specifically their ability to understand semantic relationships among objects in complex remote sensing scenes. Furthermore, we establish the FIT-RSFG (Remote Sensing Fine-Grained Comprehension) Benchmark to evaluate RSLMMs' ability in fine-grained understanding.
 
 In addition, we constructed the FIT-RSRC (Remote Sensing Relation Comprehension) Benchmark, which adopts the common-used single-choice format and CircularEval strategy. It includes high-quality distractor options derived from commonsense word lists, as well as unanswerable questions, aiming to evaluate the Remote Sensing Relation Comprehension capabilities of LMMs.
 
@@ -118,6 +118,7 @@ Our FIT-RS dataset is built based on the [STAR](https://linlin-dev.github.io/pro
 ```
 
 We are thankful to [LLaVA-1.5](https://github.com/haotian-liu/LLaVA) and [GeoChat](https://github.com/mbzuai-oryx/GeoChat) for releasing their models and code as open-source contributions.
+
 
 
 
